@@ -1,0 +1,109 @@
+#bg1{
+	background: url(media/home.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0% 0%;
+	margin:0;
+	
+}
+#bg2{
+	background: url(media/about.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: 0% 0%;
+	margin:0;
+}
+#container{
+	background: rgba(42, 38, 61, 0.82);
+	margin:0;
+}
+#overlay1{
+	position: fixed; /* Sit on top of the page content */
+	display: none; /* Hidden by default */
+	width: 100%; /* Full width (cover the whole page) */
+	height: 100%; /* Full height (cover the whole page) */
+	top: 0;
+	left: 0;
+	right: 0;
+ 	bottom: 0;
+	background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+	z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+	cursor: pointer; /* Add a pointer on hover */
+}
+#content{
+  	text-align: center;
+}
+#content img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.text1{
+	font-family: Pacifico;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35pt;
+	text-align: center;
+	color: #FFFFFF;
+}
+.text2{
+	font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14pt;	
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 10px;
+}
+.text3{
+	margin-left: auto;
+	margin-right: auto;
+	width: 500pt;
+	font-family: SF Pro Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20pt;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+#btn_about{
+	width: 100pt;
+	height: 25pt;
+	font-family: Pacifico;
+	border-color: #ff9800;
+	border: 2px solid #FCB371;
+	background:transparent;
+	text-decoration:none;
+  	border-radius:6px;
+	align-items: center;
+	text-align: center;
+
+	color: #FCB371;
+}
+#btn_reserv{
+	width: 100pt;
+	height: 25pt;
+	font-family: Pacifico;
+	border-color: #FCB371;
+	background: #FCB371;
+	text-decoration:none;
+  	border-radius: 6px;
+	align-items: center;
+	text-align: center;
+
+	color: white;
+
+	/*background-color: #1c87c9;
+         border: none;
+         color: white;
+         padding: 20px 34px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;*/
+}
+
+
