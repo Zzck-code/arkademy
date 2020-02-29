@@ -1,0 +1,191 @@
+      @font-face{
+            font-family: SF Pro Display;
+            src :url(font/SFProRegular.ttf);
+      }
+      .bghome{
+      position: relative;
+      min-height:100%;
+      background: url(media/home.png) no-repeat;
+      background-size: cover;
+      }
+      .bgabout{
+      position: relative;
+      margin:0;
+      min-height:100%;
+      background: url(media/about.png) no-repeat;
+      background-size: cover;
+      }
+      .bgreserv{
+      position: relative;
+      min-height:100%;
+      background: url(media/reservation.png) no-repeat;
+      background-size: cover;
+      }
+      .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 10;
+      background: rgba(42, 38, 61, 0.82) no-repeat;
+      }
+      .content{
+            margin-top: 50px;
+            position: relative;
+            z-index: 11;
+	     text-align: center;
+	     margin-left: auto;
+      }
+      .content img{
+      	height: 165px;
+      	width: 165px;
+      	display: block;
+		margin-left: auto;
+		margin-right: auto;
+      }
+      .text1{
+      	font-family: Pacifico;
+		font-size: 35pt;
+		text-align: center;
+		color: #FFFFFF;
+      }
+      .text2{
+      	font-family: Roboto Condensed;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12pt;	
+		text-align: center;
+		color: #FFFFFF;
+      }
+      .text3{
+            margin-left: auto;
+            margin-right: auto;
+            width: 500pt;
+            font-family: SF Pro Display;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20pt;
+            text-align: center;
+
+            color: #FFFFFF;
+            }
+      .btn_about{
+      	width: 100pt;
+		height: 25pt;
+		font-family: Pacifico;
+		border-color: #ff9800;
+		border: 2px solid #FCB371;
+		background:transparent;
+		text-decoration:none;
+	  	border-radius:6px;
+		align-items: center;
+		text-align: center;
+
+		color: #FCB371;
+      }
+      .btn_reserv{
+      	width: 100pt;
+		height: 25pt;
+		font-family: Pacifico;
+		border-color: #FCB371;
+		background: #FCB371;
+		text-decoration:none;
+	  	border-radius: 6px;
+		align-items: center;
+		text-align: center;
+
+		color: white;
+      }
+      .btn_back{
+            position: relative;
+            z-index: 11; 
+            margin-left: 30pt;
+            margin-top: 30pt;
+      }
+      .btn_back_reserv{
+            position: absolute;
+            z-index: 11; 
+            margin-left: 30pt;
+            margin-top: 30pt;
+      }
+      .input1{
+            display: flex;
+            flex-direction: row;
+            padding: 10pt;
+            margin-top: 10pt;
+
+            position: relative;
+            width: 300pt;
+            margin-left: auto;
+            margin-right: auto;
+
+            background: #FFFFFF;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 8px;
+      }
+      .input2{
+            padding: 10pt;
+            margin-top: 10pt;
+            margin-left: 5pt;
+            margin-right: 5pt;
+
+            position: relative;
+            width: 127pt;
+
+            background: #FFFFFF;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 8px;
+      }
+      .select{
+            padding: 10pt;
+            margin-top: 10pt;
+            margin-left: 5pt;
+            margin-right: 5pt;
+            width: 160pt;
+
+            position: relative;
+
+            background: #FFFFFF;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 8px;
+            color: #808080;
+      }
+      textarea{
+            display: block;
+            flex-direction: row;
+            padding: 10pt;
+            margin-top:10pt;
+
+            position: relative;
+            width: 300pt;
+            height: 50pt;
+            margin-left: auto;
+            margin-right: auto;
+
+            background: #FFFFFF;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 8px;
+      }
+      .btn_submit{
+            flex-direction: row;
+            padding: 10pt;
+            margin-top:10pt;
+
+            position: relative;
+            width: 320pt;
+            margin-left: auto;
+            margin-right: auto;
+
+            font-family: Pacifico;
+            border: 2px solid #FCB371;
+            background:#FCB371;
+            text-decoration:none;
+            border-radius:8px;
+            align-items: center;
+            text-align: center;
+
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            color: white;
+      }
+      
