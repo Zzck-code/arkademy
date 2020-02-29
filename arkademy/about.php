@@ -12,6 +12,10 @@
       background: url(media/about.png) no-repeat;
       background-size: cover;
       }
+	@font-face{
+      	font-family: SF Pro Display;
+      	src :url(font/SFProRegular.ttf);
+      }
       .overlay {
       position: fixed;
       top: 0;
